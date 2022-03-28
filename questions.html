@@ -1,0 +1,23 @@
+L’héritage permet de réutiliser le code d’une classe qui est déjà créé, dans une classe qu’on souhaite créer à partir
+des propriétés et méthodes de cette première classe (classe mère et classe fille), tout en ayant la possibilité de
+modifier les membres de la classe héritée pour les adapter à leur nouvelle utilisation. Pour créer une classe fille, on
+utilise le mot clé extends suivi du nom de la classe mère précédemment créée.
+
+L’interface sert à définir des conditions obligatoires qui devront être implémentées dans une (ou plusieurs) classe(s).
+Une interface ne contient que des méthodes abstraites, qui prennent leur sens dans la classe qui implémente l’interface
+lorsqu’on les instancie. Pour déclarer une interface, on indique le mot-clé interface suivi du nom de cette interface.
+Et pour indiquer l’implémentation, on utilise le mot-clé implements après la classe concernée suivi du nom de
+l’interface concernée.
+
+Une méthode abstraite est une fonction qui n’a pas de corps et pas de sens à elle seule. Elle prend son sens lorsqu’elle
+est héritée, instanciée et initialisée. On l’utilise en ajoutant le mot-clé abstract dans le prototype de la méthode.
+
+La classe abstraite est une classe qu’on ne peut pas instancier. On l’utilise en ajoutant le mot-clé abstract avant le
+mot class.
+
+La propriété private rend une fonction accessible seulement à l’intérieur de la classe dont elle est membre (et pas chez
+les héritages). La propriété protected rend une fonction accessible uniquement à l’intérieur de la classe dont elle est
+membre et à l'intérieur des classes héritées.
+
+Une méthode (ou une propriété) statique est une méthode qui n’a pas besoin d’instance pour être appelée. Car elle est
+directement liée à la classe.
